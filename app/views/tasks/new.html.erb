@@ -1,0 +1,19 @@
+<h1>Hi from new</h1>
+<%= form_with model: @task do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :details %>
+    <%= f.text_area :details %>
+  </div>
+  <div>
+    <%= f.label :completed %>
+    <%= f.check_box :completed %>
+  </div>
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>
+<%= link_to "Back to the list", tasks_path %>

@@ -13,3 +13,91 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  margin: 20px;
+  width: 100%;
+}
+
+.container-form {
+  background-color: lightblue;
+  border-left: grey 10px solid;
+  width: 50%;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+ }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.button-edit {
+  display: flex;
+  gap: 10px;
+}
+
+ h1 {
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 40px;
+ }
+
+ .label {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ li {
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: left;
+  margin-left: -30px;
+  padding-bottom: 5px;
+ }
+
+ a {
+  text-decoration: none;
+  color: black;
+ }
+
+ li :hover {
+  color: blue;
+  font-weight: bold;
+ }
+
+ input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  margin: 5px;
+  border: 2px solid black;
+  vertical-align: middle;
+ }
+
+ .btn-grey {
+  background-color: grey;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  width: 120px;
+ }
+
+ .btn-grey:hover {
+  background-color: black;
+  color: white;
+ }
+
+.fa-solid.fa-plus {
+  color: lightblue;
+}
+
+.btn-grey:hover .fa-solid.fa-plus {
+  color: white;
+}
